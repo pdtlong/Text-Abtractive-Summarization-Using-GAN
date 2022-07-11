@@ -1,5 +1,5 @@
-﻿* Các thư viện sử dụng
-
+*Required libraries to use*
+---
 * Python 3
 * Tensorflow GPU = 1.4.1 (không sử dụng TF thường)
 * numpy
@@ -8,6 +8,7 @@
 * rouge
 * pyrouge
 
+---
 Chuẩn bị cho mô hình:
 
 * Link tải data và model 
@@ -15,21 +16,22 @@ Chuẩn bị cho mô hình:
 
 https://drive.google.com/file/d/1ObzrJNzDAmudH5A7CgtxfBvXQGXHNeq7/view?usp=sharing
 
-
+---
 *Cài đặt pearl (phục vụ việc tạo vocabulary ban đầu trước khi train, phải tạo lại từ đầu nếu đổi máy) (bắt buộc):
 
 https://www.perl.org/get.html
 
-
+---
 * Cài đặt CUDA (Nhớ chọn phiên bản phù hợp vs tf-gpu) (bắt buộc):
 
 https://developer.nvidia.com/cuda-10.1-download-archive-base
 
-
+---
 *Cài đặt PYROUGE (Đọc kỹ phần trả lời, có thể sẽ mất 30-60 phút để cài đặt):
 
 https://stackoverflow.com/questions/47045436/how-to-install-the-python-package-pyrouge-on-microsoft-windows
 
+---
 ____Huấn luyện toàn bộ mô hình____
 
     + Huấn luyện từ đầu mô hình:
